@@ -1,0 +1,37 @@
+{
+  "name": "express-crash",
+  "version": "0.0.1",
+  "description": "Crash handling for express.",
+  "author": {
+    "name": "Aurélien Scoubeau",
+    "email": "aurelien.scoubeau@gmail.com"
+  },
+  "main": "./index",
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": {
+    "node": ">= 0.8.3"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "express": "3.1.x",
+    "mocha": "1.9.x",
+    "chai": "1.5.x",
+    "supertest": "0.5.x"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "error",
+    "handler",
+    "404",
+    "500",
+    "route"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/qur2/express-crash.git"
+  }
+}
