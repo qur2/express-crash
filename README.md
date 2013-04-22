@@ -20,6 +20,7 @@ npm install express-crash
 ## OK, quickly, how does it work?
 
 It helps to setup standard express error handlers. There are 2 important things to understand:
+
 * The module provides a `NotFoundError` enabling choosing between 404 and 500 errors. So whenever you want a 404, you can pass a `NotFoundError` to the next route handler.
 * The module uses a catch 'em all route in order to emit a 404 if no route did match.
 
@@ -27,6 +28,7 @@ It helps to setup standard express error handlers. There are 2 important things 
 ## How shall I set it up?
 
 There are two ways of using it:
+
 * Set things separately, one by one.
 * Use the shortcut method `handle()` and give it your 404 and 500 handlers. It will do the rest.
 
