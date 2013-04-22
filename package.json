@@ -1,6 +1,6 @@
 {
   "name": "express-crash",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Crash handling for express.",
   "author": {
     "name": "Aurélien Scoubeau",
